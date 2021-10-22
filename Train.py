@@ -50,11 +50,11 @@ dictionaries=['./dictionary.txt']
 batch_Imagesize=500000
 valid_batch_Imagesize=500000
 # batch_size for training and testing
-batch_size=6
-batch_size_t=6
+batch_size=16
+batch_size_t=16
 # the max (label length/Image size) in training and testing
 # you can change 'maxlen','maxImagesize' by the size of your GPU
-maxlen=48
+maxlen=30
 maxImagesize= 100000
 # hidden_size in RNN
 hidden_size = 256
