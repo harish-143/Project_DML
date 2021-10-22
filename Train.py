@@ -272,7 +272,7 @@ pretrained_dict = {k: v for k, v in pretrained_dict.items() if k in encoder_dict
 encoder_dict.update(pretrained_dict)
 encoder.load_state_dict(encoder_dict)
 
-attn_decoder1 = AttnDecoderRNN(hidden_size,112,dropout_p=0.5)
+attn_decoder1 = AttnDecoderRNN(hidden_size,209,dropout_p=0.5)
 
 encoder=encoder.cuda()
 attn_decoder1 = attn_decoder1.cuda()
